@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>myfirstproject</title>
+    <link rel="stylesheet" href="css/style.css">
+ 
+    <style>
+        body{
+            margin: 0px;
+            padding:0px;
+            background: url('https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGVhZHBob25lfGVufDB8fDB8fA%3D%3D&w=1000&q=80') no-repeat center center fixed;
+            color: white;
+            font: cursive;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+              }
+        .left{
+           
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 20px;
+        }
+        .left:hover
+        
+        {
+            color: gray;
+        }
+        .left img{
+            width: 95px;
+        }
+        .left div{
+            text-align: center;
+        }
+        .mid{
+          /* border:2px solid rgb(94, 105, 103); */
+            display: block;
+            width: 40%;
+            margin: 20px auto;
+            
+            
+        }
+        .right{
+           
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 20px;
+        }
+        .fa{
+            margin: 0px 9px;
+          
+            color:black;
+            padding: 2px 5px;
+            border-style: none;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .fa:hover{
+            background-color: gray;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            color: white;
+            font-size: 15px;
+        }
+        .navbar li a{
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            padding:5px 10px;
+        }
+        .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: gray;
+        }
+        .container{
+            position: absolute;
+            /* border:2px solid grey; */
+            width: 90%;
+            display: block;
+            margin:20px 21px;
+            padding:70px 50px;
+            border-radius: 20px;
+           
+
+        }
+
+
+
+        .buttons {
+            width: 200px;
+            /* margin: 10% auto; */
+            display: inline;
+            margin-left: 35%;
+            ;
+           
+        }
+
+         .action_btn {
+            width: 200px;
+            margin: 0 auto;
+            display: inline;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 20px;
+            border-style: none;
+            
+            
+        }
+
+        
+   
+        .formgroup{
+            margin: 8px;
+           
+        }
+        .formgroup input{
+            text-align: center;
+            display: block;
+            width: 350px;
+            padding: 6px;
+            margin: auto;
+          
+        }
+        .container h1{
+            /* color: rgb(228, 223, 238); */
+            
+            margin-left: 300px;
+            font-size: 50px;
+        }
+
+        .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+          <img src="https://i.pinimg.com/originals/fd/0e/1e/fd0e1ec4e12dda20221ed731a74d72c0.jpg" alt="">
+          <div>Naman</div>
+        </div>
+        <div class="mid">
+        <ul class="navbar">
+            <li><a href="this page is blank" class="active">HOME</a> </li>
+            <li><a href="$"> PAGES</a></li>
+            <li><a href="$"> PORTFOLIOS </a>  </li>
+            <li><a href="$"> HEADERS</a></li>
+            <li><a href="$"> ELEMENTS</a>  </li>
+            <li><a href="$">BLOGS</a></li>
+         </ul>
+        </div>
+        <div class="right">
+            <i style="font-size:24px" class="fa">&#xf07a;</i>
+            <i class="fa fa-search" style="width: auto;"></i>
+        </div>
+    
+    </header>
+    <div class="container">
+        <h1  style="color: black;"> Welcome To My Music Hub Website</h1>
+        <P style="color: black; text-align:center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, dignissimos. Sunt accusamus officiis voluptate neque, architecto dolor numquam ullam obcaecati voluptatum voluptatibus optio! Iste ullam sequi sint molestiae animi esse!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores est laudantium in optio quasi iure corrupti, ullam ipsum suscipit, quas sequi quod hic, 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut voluptatem cumque officiis blanditiis dolore voluptate repellendus sed aliquid nesciunt nobis sint placeat nulla veritatis facere, laborum inventore, suscipit molestias quibusdam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ad hic veniam harum voluptatum, id, voluptate dolorem deleniti accusamus similique, repudiandae fugit maxime laudantium aspernatur eius ex eaque nobis architecto.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur rerum iure, expedita suscipit sit dolore autem ipsum deleniti.
+        </P>
+      <div class="buttons">
+
+        <div class="action_btn">
+
+        <button  name="submit" class="action_btn submit" type="submit" value="Save" >Buy Now</button>
+        <button name="submit" class="action_btn cancel" type="submit" value="Cancel">Explore More</button>
+
+        <p id="saved"></p>
+
+        </div>
+
+    </div>
+    </div>
+    <div class="footer" style=" display: flex;
+    justify-content: space-between;">
+            <script>
+              var today = new Date();
+                var dd = String(today.getDate()).padStart(2, '0');
+                var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+                var yyyy = today.getFullYear();
+
+                today = mm + '/' + dd + '/' + yyyy;
+                document.write("<h2><h2>Naman<h2>201530019<h2>GLA University Mathura!</h2><h2>",today,"<h2><h2>");
+             </script>
+        </p>
+      </div>
+</body>
+
+</html>
